@@ -10,7 +10,7 @@ from aiohttp import web
 load_dotenv()
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-API_URL = "http://bio.thug4ff.com/update_bio"
+API_URL = "http://bio.thug4ff.xyz/update_bio"
 KEY = "great"
 PORT = int(os.getenv("PORT", 5000))
 
