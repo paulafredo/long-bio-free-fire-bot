@@ -100,7 +100,7 @@ async def bio(ctx, access_token: str = None, *, bio: str = None):
             )
         )
         embed.set_thumbnail(url=ctx.author.display_avatar.url)
-        embed.set_footer(text="DEVELOPED BY THUG4FF")
+        embed.set_footer(text="DEVELOPED BY Benzz")
         await ctx.send(ctx.author.mention, embed=embed)
 
     except Exception as e:
